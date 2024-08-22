@@ -3,7 +3,7 @@
 install_packages() {
     echo -e "\e[32mInstalling packages...\e[0m"
     sudo apt-get update
-    sudo apt-get install autojump filezilla git terminator vim zsh
+    sudo apt-get install autojump filezilla git terminator vim zsh nodejs npm
 }
 
 install_code() {
